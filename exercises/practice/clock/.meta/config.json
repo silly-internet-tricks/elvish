@@ -1,0 +1,10 @@
+{
+  "authors": [],
+  "files": {
+    "solution": [],
+    "test": [],
+    "example": []
+  },
+  "blurb": "Implement a clock that handles times without dates.",
+  "source": "Pairing session with Erin Drummond"
+}

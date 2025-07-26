@@ -1,0 +1,3 @@
+fn hello-world {
+  echo hello world
+}
