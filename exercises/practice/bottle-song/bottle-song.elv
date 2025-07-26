@@ -1,6 +1,4 @@
-local BottleSong = {}
+fn recite { |start-bottles take-down|
+  # Your solution here
+}
 
-function BottleSong.recite(start_bottles, take_down)
-end
-
-return BottleSong

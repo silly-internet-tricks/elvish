@@ -1,4 +1,4 @@
-return {
-  count = function(grid)
-  end
+fn count { |grid|
+  # Your solution here
 }
+

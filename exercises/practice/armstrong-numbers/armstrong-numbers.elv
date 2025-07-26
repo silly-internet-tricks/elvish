@@ -1,6 +1,4 @@
-local ArmstrongNumbers = {}
+fn is-armstrong-number { |number|
+  # Your solution here
+}
 
-function ArmstrongNumbers.is_armstrong_number(number)
-end
-
-return ArmstrongNumbers

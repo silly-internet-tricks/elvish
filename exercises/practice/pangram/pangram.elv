@@ -1,2 +1,4 @@
-return function(s)
-end
+fn is-pangram { |s|
+  # Your solution here
+}
+

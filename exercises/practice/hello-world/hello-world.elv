@@ -1,7 +1,4 @@
-local hello_world = {}
+fn hello {
+  echo "Goodbye, Mars!"
+}
 
-function hello_world.hello()
-  return 'Goodbye, Mars!'
-end
-
-return hello_world

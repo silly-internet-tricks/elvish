@@ -1,2 +1,4 @@
-return function(dna)
-end
+fn to-rna { |dna|
+  # Your solution here
+}
+

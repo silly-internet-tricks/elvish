@@ -1,2 +1,4 @@
-return function(s)
-end
+fn garden { |s|
+  # Your solution here
+}
+

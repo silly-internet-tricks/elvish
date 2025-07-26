@@ -1,4 +1,4 @@
-return {
-  valid = function(isbn)
-  end
+fn valid { |isbn|
+  # Your solution here
 }
+

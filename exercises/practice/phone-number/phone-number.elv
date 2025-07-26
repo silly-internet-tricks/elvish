@@ -1,3 +1,4 @@
-local PhoneNumber = {}
+fn new-phone-number { |str-phone-number|
+  # Your solution here
+}
 
-return PhoneNumber

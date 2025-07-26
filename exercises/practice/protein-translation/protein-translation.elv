@@ -1,7 +1,8 @@
-local function translate_codon(codon)
-end
+fn translate-codon { |codon|
+  # Your solution here
+}
 
-local function translate_rna_strand(rna_strand)
-end
+fn translate-rna-strand { |rna-strand|
+  # Your solution here
+}
 
-return { codon = translate_codon, rna_strand = translate_rna_strand }

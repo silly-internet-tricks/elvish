@@ -1,10 +1,12 @@
-local function verse(which)
-end
+fn verse { |which|
+  # Your solution here
+}
 
-local function verses(from, to)
-end
+fn verses { |from to|
+  # Your solution here
+}
 
-local function sing()
-end
+fn sing {
+  # Your solution here
+}
 
-return { verse = verse, verses = verses, sing = sing }

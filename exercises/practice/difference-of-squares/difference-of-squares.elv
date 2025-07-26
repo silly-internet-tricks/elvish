@@ -1,10 +1,12 @@
-local function square_of_sum(n)
-end
+fn square-of-sum { |n|
+  # Your solution here
+}
 
-local function sum_of_squares(n)
-end
+fn sum-of-squares { |n|
+  # Your solution here
+}
 
-local function difference_of_squares(n)
-end
+fn difference-of-squares { |n|
+  # Your solution here
+}
 
-return { square_of_sum = square_of_sum, sum_of_squares = sum_of_squares, difference_of_squares = difference_of_squares }

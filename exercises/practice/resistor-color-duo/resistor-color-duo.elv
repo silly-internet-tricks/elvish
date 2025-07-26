@@ -1,4 +1,4 @@
-return {
-  value = function(colors)
-  end
+fn value { |colors|
+  # Your solution here
 }
+

@@ -1,2 +1,4 @@
-return function(s)
-end
+fn is-isogram { |s|
+  # Your solution here
+}
+

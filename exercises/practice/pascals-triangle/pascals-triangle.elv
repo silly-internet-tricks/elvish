@@ -1,2 +1,4 @@
-return function(n)
-end
+fn triangle { |n|
+  # Your solution here
+}
+

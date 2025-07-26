@@ -1,2 +1,4 @@
-return function(config)
-end
+fn largest-series-product { |config|
+  # Your solution here
+}
+

@@ -1,4 +1,4 @@
-return {
-  convert = function(s)
-  end
+fn convert { |s|
+  # Your solution here
 }
+

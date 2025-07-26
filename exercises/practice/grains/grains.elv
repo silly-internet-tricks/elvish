@@ -1,9 +1,8 @@
-local grains = {}
+fn square { |n|
+  # Your solution here
+}
 
-function grains.square(n)
-end
+fn total {
+  # Your solution here
+}
 
-function grains.total()
-end
-
-return grains

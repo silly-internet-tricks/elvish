@@ -1,2 +1,4 @@
-return function(sum)
-end
+fn triplets-with-sum { |sum|
+  # Your solution here
+}
+

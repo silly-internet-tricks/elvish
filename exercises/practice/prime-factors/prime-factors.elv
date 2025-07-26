@@ -1,2 +1,4 @@
-return function(input)
-end
+fn prime-factors { |input|
+  # Your solution here
+}
+

@@ -1,9 +1,8 @@
-local house = {}
+fn verse { |which|
+  # Your solution here
+}
 
-house.verse = function(which)
-end
+fn recite { |which|
+  # Your solution here
+}
 
-house.recite = function()
-end
-
-return house

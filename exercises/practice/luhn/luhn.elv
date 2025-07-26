@@ -1,4 +1,4 @@
-return {
-  valid = function(s)
-  end
+fn valid { |s|
+  # Your solution here
 }
+

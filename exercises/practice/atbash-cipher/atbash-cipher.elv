@@ -1,4 +1,4 @@
-return {
-  encode = function(plaintext)
-  end
+fn encode { |plaintext|
+  # Your solution here
 }
+

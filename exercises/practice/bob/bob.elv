@@ -1,6 +1,4 @@
-local bob = {}
+fn hey { |say|
+  # Your solution here
+}
 
-function bob.hey(say)
-end
-
-return bob

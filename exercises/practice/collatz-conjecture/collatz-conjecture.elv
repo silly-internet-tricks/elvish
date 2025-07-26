@@ -1,2 +1,4 @@
-return function(n)
-end
+fn conjecture { |n|
+  # Your solution here
+}
+

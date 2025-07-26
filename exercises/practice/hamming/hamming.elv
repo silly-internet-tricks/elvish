@@ -1,6 +1,4 @@
-local Hamming = {}
+fn compute { |a b|
+  # Your solution here
+}
 
-function Hamming.compute(a, b)
-end
-
-return Hamming

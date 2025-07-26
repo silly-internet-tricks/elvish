@@ -1,5 +1,4 @@
-local function maximum_value(maximum_weight, items)
+fn maximum-value { |maximum-weight items|
+  # Your solution here
+}
 
-end
-
-return { maximum_value = maximum_value }

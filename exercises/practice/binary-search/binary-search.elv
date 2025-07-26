@@ -1,2 +1,4 @@
-return function(array, target)
-end
+fn find { |array target|
+  # Your solution here
+}
+

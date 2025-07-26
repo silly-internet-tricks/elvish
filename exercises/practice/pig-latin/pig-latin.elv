@@ -1,2 +1,4 @@
-return function(phrase)
-end
+fn translate { |phrase|
+  # Your solution here
+}
+

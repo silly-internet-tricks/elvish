@@ -1,2 +1,4 @@
-return function(config)
-end
+fn robot { |config|
+  # Your solution here
+}
+

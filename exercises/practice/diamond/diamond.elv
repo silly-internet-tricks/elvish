@@ -1,2 +1,4 @@
-return function(which)
-end
+fn diamond { |which|
+  # Your solution here
+}
+

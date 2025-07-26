@@ -1,6 +1,4 @@
-local EliudsEggs = {}
+fn egg-count { |number|
+  # Your solution here
+}
 
-function EliudsEggs.egg_count(number)
-end
-
-return EliudsEggs

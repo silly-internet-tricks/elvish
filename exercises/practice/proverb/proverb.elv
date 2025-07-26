@@ -1,6 +1,4 @@
-local Proverb = {}
+fn recite { |strings|
+  # Your solution here
+}
 
-function Proverb.recite(strings)
-end
-
-return Proverb

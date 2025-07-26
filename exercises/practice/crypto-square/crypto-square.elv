@@ -1,4 +1,4 @@
-return {
-  ciphertext = function(plaintext)
-  end
+fn ciphertext { |plaintext|
+  # Your solution here
 }
+

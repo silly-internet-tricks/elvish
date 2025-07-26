@@ -1,9 +1,12 @@
-local Character = {}
+fn new { |name|
+  # Your solution here
+}
 
-local function ability(scores)
-end
+fn ability { |scores|
+  # Your solution here
+}
 
-local function modifier(input)
-end
+fn modifier { |input|
+  # Your solution here
+}
 
-return { Character = Character, ability = ability, modifier = modifier }

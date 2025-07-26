@@ -1,9 +1,8 @@
-local function smallest(min, max)
+fn smallest { |min max|
+  # Your solution here
+}
 
-end
+fn largest { |min max|
+  # Your solution here
+}
 
-local function largest(min, max)
-
-end
-
-return { smallest = smallest, largest = largest }

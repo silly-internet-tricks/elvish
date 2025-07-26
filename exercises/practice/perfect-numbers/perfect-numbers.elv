@@ -1,7 +1,8 @@
-local function aliquot_sum(n)
-end
+fn aliquot-sum { |n|
+  # Your solution here
+}
 
-local function classify(n)
-end
+fn classify { |n|
+  # Your solution here
+}
 
-return { aliquot_sum = aliquot_sum, classify = classify }
