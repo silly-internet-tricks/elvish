@@ -1,2 +1,4 @@
-return function(s)
-end
+fn acronym { |s|
+  # Your solution here
+}
+

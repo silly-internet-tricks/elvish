@@ -1,6 +1,4 @@
-local all_your_base = {}
+fn convert { |from-digits from-base|
+  # Your solution here
+}
 
-all_your_base.convert = function(from_digits, from_base)
-end
-
-return all_your_base

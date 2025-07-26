@@ -1,9 +1,8 @@
-local function encode(phrase, key)
+fn encode { |phrase key|
+  # Your encode solution here
+}
 
-end
+fn decode { |phrase key|
+  # Your decode solution here
+}
 
-local function decode(phrase, key)
-
-end
-
-return { encode = encode, decode = decode }

@@ -1,3 +1,10 @@
-local Anagram = {}
+fn new { |this-word|
+  # Your constructor here
 
-return Anagram
+  fn match { |other-words|
+    # Your solution method here
+  }
+
+  put [&match=$match~]
+}
+
