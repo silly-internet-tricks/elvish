@@ -1,4 +1,3 @@
-return {
-  color_code = function(color)
-  end
+fn color-code { |color|
+  # Your solution here
 }
