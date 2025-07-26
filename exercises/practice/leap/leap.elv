@@ -1,4 +1,4 @@
-local leap_year = function(number)
-end
+fn leap-year { |number|
+  # your solution here
+}
 
-return leap_year
