@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Convert a long phrase to its acronym.",
-  "source": "Julien Vanier",
-  "source_url": "https://github.com/monkbroc"
-}
+{"source_url":"https://github.com/monkbroc","authors":["silly-internet-tricks"],"source":"Julien Vanier","files":{"solution":["acronym.elv"],"test":["acronym-test.elv"],"example":[".meta/example.elv"]},"blurb":"Convert a long phrase to its acronym."}

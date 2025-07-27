@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement a clock that handles times without dates.",
-  "source": "Pairing session with Erin Drummond"
-}
+{"authors":["silly-internet-tricks"],"source":"Pairing session with Erin Drummond","files":{"solution":["clock.elv"],"test":["clock-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement a clock that handles times without dates."}

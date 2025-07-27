@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Write a robot simulator.",
-  "source": "Inspired by an interview question at a famous company."
-}
+{"authors":["silly-internet-tricks"],"source":"Inspired by an interview question at a famous company.","files":{"solution":["robot-simulator.elv"],"test":["robot-simulator-test.elv"],"example":[".meta/example.elv"]},"blurb":"Write a robot simulator."}

@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Reverse a given string.",
-  "source": "Introductory challenge to reverse an input string",
-  "source_url": "https://medium.freecodecamp.org/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb"
-}
+{"source_url":"https://medium.freecodecamp.org/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb","authors":["silly-internet-tricks"],"source":"Introductory challenge to reverse an input string","files":{"solution":["reverse-string.elv"],"test":["reverse-string-test.elv"],"example":[".meta/example.elv"]},"blurb":"Reverse a given string."}

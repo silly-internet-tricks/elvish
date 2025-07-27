@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a string of digits, output all the contiguous substrings of length `n` in that string.",
-  "source": "A subset of the Problem 8 at Project Euler",
-  "source_url": "https://projecteuler.net/problem=8"
-}
+{"source_url":"https://projecteuler.net/problem=8","authors":["silly-internet-tricks"],"source":"A subset of the Problem 8 at Project Euler","files":{"solution":["series.elv"],"test":["series-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a string of digits, output all the contiguous substrings of length `n` in that string."}

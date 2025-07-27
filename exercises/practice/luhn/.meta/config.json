@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a number determine whether or not it is valid per the Luhn formula.",
-  "source": "The Luhn Algorithm on Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Luhn_algorithm"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Luhn_algorithm","authors":["silly-internet-tricks"],"source":"The Luhn Algorithm on Wikipedia","files":{"solution":["luhn.elv"],"test":["luhn-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a number determine whether or not it is valid per the Luhn formula."}

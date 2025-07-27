@@ -1,9 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Tally the results of a small football competition."
-}
+{"authors":["silly-internet-tricks"],"files":{"solution":["tournament.elv"],"test":["tournament-test.elv"],"example":[".meta/example.elv"]},"blurb":"Tally the results of a small football competition."}

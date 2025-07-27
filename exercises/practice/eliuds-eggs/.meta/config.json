@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Help Eliud count the number of eggs in her chicken coop by counting the number of 1 bits in a binary representation.",
-  "source": "Christian Willner, Eric Willigers",
-  "source_url": "https://forum.exercism.org/t/new-exercise-suggestion-pop-count/7632/5"
-}
+{"source_url":"https://forum.exercism.org/t/new-exercise-suggestion-pop-count/7632/5","authors":["silly-internet-tricks"],"source":"Christian Willner, Eric Willigers","files":{"solution":["eliuds-eggs.elv"],"test":["eliuds-eggs-test.elv"],"example":[".meta/example.elv"]},"blurb":"Help Eliud count the number of eggs in her chicken coop by counting the number of 1 bits in a binary representation."}

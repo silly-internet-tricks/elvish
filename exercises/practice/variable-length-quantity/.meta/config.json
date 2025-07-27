@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement variable length quantity encoding and decoding.",
-  "source": "A poor Splice developer having to implement MIDI encoding/decoding.",
-  "source_url": "https://splice.com"
-}
+{"source_url":"https://splice.com","authors":["silly-internet-tricks"],"source":"A poor Splice developer having to implement MIDI encoding/decoding.","files":{"solution":["variable-length-quantity.elv"],"test":["variable-length-quantity-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement variable length quantity encoding and decoding."}

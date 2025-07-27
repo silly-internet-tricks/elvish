@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Output the nursery rhyme 'This is the House that Jack Built'.",
-  "source": "British nursery rhyme",
-  "source_url": "https://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built"
-}
+{"source_url":"https://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built","authors":["silly-internet-tricks"],"source":"British nursery rhyme","files":{"solution":["house.elv"],"test":["house-test.elv"],"example":[".meta/example.elv"]},"blurb":"Output the nursery rhyme 'This is the House that Jack Built'."}

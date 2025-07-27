@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Calculate the Hamming distance between two DNA strands.",
-  "source": "The Calculating Point Mutations problem at Rosalind",
-  "source_url": "https://rosalind.info/problems/hamm/"
-}
+{"source_url":"https://rosalind.info/problems/hamm/","authors":["silly-internet-tricks"],"source":"The Calculating Point Mutations problem at Rosalind","files":{"solution":["hamming.elv"],"test":["hamming-test.elv"],"example":[".meta/example.elv"]},"blurb":"Calculate the Hamming distance between two DNA strands."}

@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement a binary search algorithm.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Binary_search_algorithm"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Binary_search_algorithm","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["binary-search.elv"],"test":["binary-search-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement a binary search algorithm."}

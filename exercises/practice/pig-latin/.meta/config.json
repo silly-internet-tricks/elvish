@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement a program that translates from English to Pig Latin.",
-  "source": "The Pig Latin exercise at Test First Teaching by Ultrasaurus",
-  "source_url": "https://github.com/ultrasaurus/test-first-teaching/blob/master/learn_ruby/pig_latin/"
-}
+{"source_url":"https://github.com/ultrasaurus/test-first-teaching/blob/master/learn_ruby/pig_latin/","authors":["silly-internet-tricks"],"source":"The Pig Latin exercise at Test First Teaching by Ultrasaurus","files":{"solution":["pig-latin.elv"],"test":["pig-latin-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement a program that translates from English to Pig Latin."}

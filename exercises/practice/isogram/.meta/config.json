@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Determine if a word or phrase is an isogram.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Isogram"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Isogram","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["isogram.elv"],"test":["isogram-test.elv"],"example":[".meta/example.elv"]},"blurb":"Determine if a word or phrase is an isogram."}

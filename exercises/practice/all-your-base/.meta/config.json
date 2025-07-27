@@ -1,9 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Convert a number, represented as a sequence of digits in one base, to any other base."
-}
+{"authors":["silly-internet-tricks"],"files":{"solution":["all-your-base.elv"],"test":["all-your-base-test.elv"],"example":[".meta/example.elv"]},"blurb":"Convert a number, represented as a sequence of digits in one base, to any other base."}

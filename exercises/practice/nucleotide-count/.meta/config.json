@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a DNA string, compute how many times each nucleotide occurs in the string.",
-  "source": "The Calculating DNA Nucleotides_problem at Rosalind",
-  "source_url": "https://rosalind.info/problems/dna/"
-}
+{"source_url":"https://rosalind.info/problems/dna/","authors":["silly-internet-tricks"],"source":"The Calculating DNA Nucleotides_problem at Rosalind","files":{"solution":["nucleotide-count.elv"],"test":["nucleotide-count-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a DNA string, compute how many times each nucleotide occurs in the string."}

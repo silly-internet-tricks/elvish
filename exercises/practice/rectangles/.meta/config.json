@@ -1,9 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Count the rectangles in an ASCII diagram."
-}
+{"authors":["silly-internet-tricks"],"files":{"solution":["rectangles.elv"],"test":["rectangles-test.elv"],"example":[".meta/example.elv"]},"blurb":"Count the rectangles in an ASCII diagram."}

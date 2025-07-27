@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Make sure the brackets and braces all match.",
-  "source": "Ginna Baker"
-}
+{"authors":["silly-internet-tricks"],"source":"Ginna Baker","files":{"solution":["matching-brackets.elv"],"test":["matching-brackets-test.elv"],"example":[".meta/example.elv"]},"blurb":"Make sure the brackets and braces all match."}

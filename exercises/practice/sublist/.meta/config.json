@@ -1,9 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Write a function to determine if a list is a sublist of another list."
-}
+{"authors":["silly-internet-tricks"],"files":{"solution":["sublist.elv"],"test":["sublist-test.elv"],"example":[".meta/example.elv"]},"blurb":"Write a function to determine if a list is a sublist of another list."}

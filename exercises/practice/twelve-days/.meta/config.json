@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Output the lyrics to 'The Twelve Days of Christmas'.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)"
-}
+{"source_url":"https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["twelve-days.elv"],"test":["twelve-days-test.elv"],"example":[".meta/example.elv"]},"blurb":"Output the lyrics to 'The Twelve Days of Christmas'."}

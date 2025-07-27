@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Create an implementation of the rotational cipher, also sometimes called the Caesar cipher.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Caesar_cipher"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Caesar_cipher","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["rotational-cipher.elv"],"test":["rotational-cipher-test.elv"],"example":[".meta/example.elv"]},"blurb":"Create an implementation of the rotational cipher, also sometimes called the Caesar cipher."}

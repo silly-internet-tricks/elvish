@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Calculate the points scored in a single toss of a Darts game.",
-  "source": "Inspired by an exercise created by a professor Della Paolera in Argentina"
-}
+{"authors":["silly-internet-tricks"],"source":"Inspired by an exercise created by a professor Della Paolera in Argentina","files":{"solution":["darts.elv"],"test":["darts-test.elv"],"example":[".meta/example.elv"]},"blurb":"Calculate the points scored in a single toss of a Darts game."}

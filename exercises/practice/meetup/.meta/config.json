@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Calculate the date of meetups.",
-  "source": "Jeremy Hinegardner mentioned a Boulder meetup that happens on the Wednesteenth of every month"
-}
+{"authors":["silly-internet-tricks"],"source":"Jeremy Hinegardner mentioned a Boulder meetup that happens on the Wednesteenth of every month","files":{"solution":["meetup.elv"],"test":["meetup-test.elv"],"example":[".meta/example.elv"]},"blurb":"Calculate the date of meetups."}

@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number.",
-  "source": "Sieve of Eratosthenes at Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes","authors":["silly-internet-tricks"],"source":"Sieve of Eratosthenes at Wikipedia","files":{"solution":["sieve.elv"],"test":["sieve-test.elv"],"example":[".meta/example.elv"]},"blurb":"Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number."}

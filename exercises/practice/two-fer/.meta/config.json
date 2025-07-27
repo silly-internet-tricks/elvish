@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Create a sentence of the form \"One for X, one for me.\".",
-  "source_url": "https://github.com/exercism/problem-specifications/issues/757"
-}
+{"source_url":"https://github.com/exercism/problem-specifications/issues/757","authors":["silly-internet-tricks"],"files":{"solution":["two-fer.elv"],"test":["two-fer-test.elv"],"example":[".meta/example.elv"]},"blurb":"Create a sentence of the form \"One for X, one for me.\"."}

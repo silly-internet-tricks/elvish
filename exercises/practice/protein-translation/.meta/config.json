@@ -1,10 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Translate RNA sequences into proteins.",
-  "source": "Tyler Long"
-}
+{"authors":["silly-internet-tricks"],"source":"Tyler Long","files":{"solution":["protein-translation.elv"],"test":["protein-translation-test.elv"],"example":[".meta/example.elv"]},"blurb":"Translate RNA sequences into proteins."}

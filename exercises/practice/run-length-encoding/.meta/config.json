@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement run-length encoding and decoding.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Run-length_encoding"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Run-length_encoding","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["run-length-encoding.elv"],"test":["run-length-encoding-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement run-length encoding and decoding."}

@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a string of digits, calculate the largest product for a contiguous substring of digits of length n.",
-  "source": "A variation on Problem 8 at Project Euler",
-  "source_url": "https://projecteuler.net/problem=8"
-}
+{"source_url":"https://projecteuler.net/problem=8","authors":["silly-internet-tricks"],"source":"A variation on Problem 8 at Project Euler","files":{"solution":["largest-series-product.elv"],"test":["largest-series-product-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a string of digits, calculate the largest product for a contiguous substring of digits of length n."}

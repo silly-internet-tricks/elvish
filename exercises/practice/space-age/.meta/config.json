@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given an age in seconds, calculate how old someone is in terms of a given planet's solar years.",
-  "source": "Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial.",
-  "source_url": "https://pine.fm/LearnToProgram/?Chapter=01"
-}
+{"source_url":"https://pine.fm/LearnToProgram/?Chapter=01","authors":["silly-internet-tricks"],"source":"Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial.","files":{"solution":["space-age.elv"],"test":["space-age-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given an age in seconds, calculate how old someone is in terms of a given planet's solar years."}

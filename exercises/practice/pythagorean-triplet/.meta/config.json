@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given an integer N, find all Pythagorean triplets for which a + b + c = N.",
-  "source": "A variation of Problem 9 from Project Euler",
-  "source_url": "https://projecteuler.net/problem=9"
-}
+{"source_url":"https://projecteuler.net/problem=9","authors":["silly-internet-tricks"],"source":"A variation of Problem 9 from Project Euler","files":{"solution":["pythagorean-triplet.elv"],"test":["pythagorean-triplet-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given an integer N, find all Pythagorean triplets for which a + b + c = N."}

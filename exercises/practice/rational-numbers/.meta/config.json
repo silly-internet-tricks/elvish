@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement rational numbers.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Rational_number"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Rational_number","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["rational-numbers.elv"],"test":["rational-numbers-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement rational numbers."}

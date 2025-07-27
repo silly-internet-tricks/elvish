@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Determine if a sentence is a pangram.",
-  "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Pangram"
-}
+{"source_url":"https://en.wikipedia.org/wiki/Pangram","authors":["silly-internet-tricks"],"source":"Wikipedia","files":{"solution":["pangram.elv"],"test":["pangram-test.elv"],"example":[".meta/example.elv"]},"blurb":"Determine if a sentence is a pangram."}

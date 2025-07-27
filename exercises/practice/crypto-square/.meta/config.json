@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Implement the classic method for composing secret messages called a square code.",
-  "source": "J Dalbey's Programming Practice problems",
-  "source_url": "https://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html"
-}
+{"source_url":"https://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html","authors":["silly-internet-tricks"],"source":"J Dalbey's Programming Practice problems","files":{"solution":["crypto-square.elv"],"test":["crypto-square-test.elv"],"example":[".meta/example.elv"]},"blurb":"Implement the classic method for composing secret messages called a square code."}

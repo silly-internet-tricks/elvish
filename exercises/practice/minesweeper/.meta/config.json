@@ -1,9 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Add the numbers to a minesweeper board."
-}
+{"authors":["silly-internet-tricks"],"files":{"solution":["minesweeper.elv"],"test":["minesweeper-test.elv"],"example":[".meta/example.elv"]},"blurb":"Add the numbers to a minesweeper board."}

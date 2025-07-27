@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Compute Pascal's triangle up to a given number of rows.",
-  "source": "Pascal's Triangle at Wolfram Math World",
-  "source_url": "https://www.wolframalpha.com/input/?i=Pascal%27s+triangle"
-}
+{"source_url":"https://www.wolframalpha.com/input/?i=Pascal%27s+triangle","authors":["silly-internet-tricks"],"source":"Pascal's Triangle at Wolfram Math World","files":{"solution":["pascals-triangle.elv"],"test":["pascals-triangle-test.elv"],"example":[".meta/example.elv"]},"blurb":"Compute Pascal's triangle up to a given number of rows."}

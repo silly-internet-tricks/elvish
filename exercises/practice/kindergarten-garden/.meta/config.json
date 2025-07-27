@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a diagram, determine which plants each child in the kindergarten class is responsible for.",
-  "source": "Exercise by the JumpstartLab team for students at The Turing School of Software and Design.",
-  "source_url": "https://turing.edu"
-}
+{"source_url":"https://turing.edu","authors":["silly-internet-tricks"],"source":"Exercise by the JumpstartLab team for students at The Turing School of Software and Design.","files":{"solution":["kindergarten-garden.elv"],"test":["kindergarten-garden-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a diagram, determine which plants each child in the kindergarten class is responsible for."}

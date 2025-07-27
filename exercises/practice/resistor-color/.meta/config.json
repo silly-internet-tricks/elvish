@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Convert a resistor band's color to its numeric representation.",
-  "source": "Maud de Vries, Erik Schierboom",
-  "source_url": "https://github.com/exercism/problem-specifications/issues/1458"
-}
+{"source_url":"https://github.com/exercism/problem-specifications/issues/1458","authors":["silly-internet-tricks"],"source":"Maud de Vries, Erik Schierboom","files":{"solution":["resistor-color.elv"],"test":["resistor-color-test.elv"],"example":[".meta/example.elv"]},"blurb":"Convert a resistor band's color to its numeric representation."}

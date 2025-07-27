@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Randomly generate Dungeons & Dragons characters.",
-  "source": "Simon Shine, Erik Schierboom",
-  "source_url": "https://github.com/exercism/problem-specifications/issues/616#issuecomment-437358945"
-}
+{"source_url":"https://github.com/exercism/problem-specifications/issues/616#issuecomment-437358945","authors":["silly-internet-tricks"],"source":"Simon Shine, Erik Schierboom","files":{"solution":["dnd-character.elv"],"test":["dnd-character-test.elv"],"example":[".meta/example.elv"]},"blurb":"Randomly generate Dungeons \u0026 Dragons characters."}

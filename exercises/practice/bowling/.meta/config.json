@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Score a bowling game.",
-  "source": "The Bowling Game Kata from UncleBob",
-  "source_url": "https://web.archive.org/web/20221001111000/http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata"
-}
+{"source_url":"https://web.archive.org/web/20221001111000/http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata","authors":["silly-internet-tricks"],"source":"The Bowling Game Kata from UncleBob","files":{"solution":["bowling.elv"],"test":["bowling-test.elv"],"example":[".meta/example.elv"]},"blurb":"Score a bowling game."}

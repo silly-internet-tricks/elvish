@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Convert modern Arabic numbers into Roman numerals.",
-  "source": "The Roman Numeral Kata",
-  "source_url": "https://codingdojo.org/kata/RomanNumerals/"
-}
+{"source_url":"https://codingdojo.org/kata/RomanNumerals/","authors":["silly-internet-tricks"],"source":"The Roman Numeral Kata","files":{"solution":["roman-numerals.elv"],"test":["roman-numerals-test.elv"],"example":[".meta/example.elv"]},"blurb":"Convert modern Arabic numbers into Roman numerals."}

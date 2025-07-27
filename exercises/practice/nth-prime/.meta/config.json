@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a number n, determine what the nth prime is.",
-  "source": "A variation on Problem 7 at Project Euler",
-  "source_url": "https://projecteuler.net/problem=7"
-}
+{"source_url":"https://projecteuler.net/problem=7","authors":["silly-internet-tricks"],"source":"A variation on Problem 7 at Project Euler","files":{"solution":["nth-prime.elv"],"test":["nth-prime-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a number n, determine what the nth prime is."}

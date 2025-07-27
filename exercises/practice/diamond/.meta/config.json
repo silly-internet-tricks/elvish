@@ -1,11 +1,1 @@
-{
-  "authors": [],
-  "files": {
-    "solution": [],
-    "test": [],
-    "example": []
-  },
-  "blurb": "Given a letter, print a diamond starting with 'A' with the supplied letter at the widest point.",
-  "source": "Seb Rose",
-  "source_url": "https://web.archive.org/web/20220807163751/http://claysnow.co.uk/recycling-tests-in-tdd/"
-}
+{"source_url":"https://web.archive.org/web/20220807163751/http://claysnow.co.uk/recycling-tests-in-tdd/","authors":["silly-internet-tricks"],"source":"Seb Rose","files":{"solution":["diamond.elv"],"test":["diamond-test.elv"],"example":[".meta/example.elv"]},"blurb":"Given a letter, print a diamond starting with 'A' with the supplied letter at the widest point."}
