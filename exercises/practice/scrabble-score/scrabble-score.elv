@@ -1,4 +1,4 @@
-local function score(word)
-end
+fn score { |word|
+  # Your solution here
+}
 
-return { score = score }

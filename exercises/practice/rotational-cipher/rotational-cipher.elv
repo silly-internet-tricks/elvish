@@ -1,4 +1,4 @@
-return {
-  rotate = function(input, key)
-  end
+fn rotate { |input key|
+  # Your solution here
 }
+

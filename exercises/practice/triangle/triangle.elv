@@ -1,6 +1,4 @@
-local triangle = {}
+fn kind { |a b c|
+  # Your solution here
+}
 
-function triangle.kind(a, b, c)
-end
-
-return triangle

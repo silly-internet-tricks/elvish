@@ -1,2 +1,4 @@
-return function(size)
-end
+fn spiral-matrix { |size|
+  # Your solution here
+}
+

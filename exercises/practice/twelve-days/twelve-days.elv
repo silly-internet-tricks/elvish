@@ -1,5 +1,4 @@
-local function recite(start_verse, end_verse)
+fn recite { |start-verse end-verse|
+  # Your solution here
+}
 
-end
-
-return { recite = recite }

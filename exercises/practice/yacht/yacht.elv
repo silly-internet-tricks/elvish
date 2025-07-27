@@ -1,7 +1,4 @@
-local yacht = {}
+fn score { |dice category|
+  # Your solution here
+}
 
-yacht.score = function(dice, category)
-
-end
-
-return yacht

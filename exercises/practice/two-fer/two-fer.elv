@@ -1,6 +1,4 @@
-local TwoFer = {}
+fn two-fer { |@names|
+  # Your solution here
+}
 
-function TwoFer.two_fer(name)
-end
-
-return TwoFer

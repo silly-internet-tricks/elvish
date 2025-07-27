@@ -1,2 +1,4 @@
-return function(results)
-end
+fn tournament { |results|
+  # Your solution here
+}
+

@@ -1,3 +1,4 @@
-local SpaceAge = {}
+fn new { |n|
+  # Your solution here
+}
 
-return SpaceAge

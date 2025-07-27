@@ -1,5 +1,8 @@
 # This will run the provided example tests
 # (which are supposed to all pass 😁)
+
+# Note on the local-test-helpers:
+#   The function inputs are always in a list
 for e in ./exercises/practice/**/.meta/example.elv; do
     :
     dir_name="$(echo "$e" | grep -Eo "practice/[^/]+" | grep -Eo "[^/]+$")"

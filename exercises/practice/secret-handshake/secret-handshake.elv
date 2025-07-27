@@ -1,2 +1,4 @@
-return function(n)
-end
+fn secret-handshake { |n|
+  # Your solution here
+}
+

@@ -1,7 +1,8 @@
-local function decode(bytes)
-end
+fn decode { |bytes|
+  # Your solution here
+}
 
-local function encode(values)
-end
+fn encode { |values|
+  # Your solution here
+}
 
-return { decode = decode, encode = encode }

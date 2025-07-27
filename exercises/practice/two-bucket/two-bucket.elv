@@ -1,4 +1,4 @@
-return {
-  measure = function(args)
-  end
+fn measure { |args|
+  # Your solution here
 }
+

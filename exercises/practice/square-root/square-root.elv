@@ -1,6 +1,4 @@
-local SquareRoot = {}
+fn square-root { |radicand|
+  # Your solution here
+}
 
-function SquareRoot.square_root(radicand)
-end
-
-return SquareRoot

@@ -1,2 +1,4 @@
-return function(sublist, list)
-end
+fn is-sublist { |sublist list|
+  # Your solution here
+}
+

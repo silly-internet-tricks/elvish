@@ -1,2 +1,4 @@
-return function(s, length)
-end
+fn series { |s length|
+  # Your solution here
+}
+

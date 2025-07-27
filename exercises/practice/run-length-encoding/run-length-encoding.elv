@@ -1,6 +1,8 @@
-return {
-  encode = function(s)
-  end,
-  decode = function(s)
-  end
+fn encode { |s|
+  # Your solution here
 }
+
+fn decode { |s|
+  # Your solution here
+}
+

@@ -1,2 +1,4 @@
-return function(n)
-end
+fn sieve { |n|
+  # Your solution here
+}
+
