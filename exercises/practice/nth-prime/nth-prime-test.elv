@@ -7,18 +7,9 @@ describe('nth-prime', function()
     return os.clock() - start
   end
 
-  it('should give 2 as the first prime', function()
-    assert.equal(2, nth(1))
-  end)
-
-  it('should give 3 as the second prime', function()
-    assert.equal(3, nth(2))
-  end)
-
-  it('should be able to calculate the nth prime for small n', function()
-    assert.equal(13, nth(6))
-  end)
-
+    [$nth~ "should give 2 as the first prime" ["1"] "2"]
+    [$nth~ "should give 3 as the second prime" ["2"] "3"]
+    [$nth~ "should be able to calculate the nth prime for small n" ["6"] "13"]
   it('should be efficient for large n', function()
     local execution_time = benchmark(function()
       nth(10001)
@@ -27,10 +18,7 @@ describe('nth-prime', function()
     assert(execution_time < 1, 'should take less than a second to execute')
   end)
 
-  it('should be able to calculate the nth prime for large n', function()
-    assert.equal(104743, nth(10001))
-  end)
-
+    [$nth~ "should be able to calculate the nth prime for large n" ["10001"] "104743"]
   it('should raise an error for n <= 0', function()
     assert.has_error(function()
       nth(0)

@@ -82,17 +82,11 @@ that lay in the house that Jack built.]]
 }
 
 describe('house', function()
-  it('should correctly generate the first verse', function()
-    assert.equal(verses[1], house.verse(1))
-  end)
-
+    [$house.verse~ "should correctly generate the first verse" ["1"] "verses[1]"]
   it('should correctly generate all verses', function()
     for i = 1, #verses do
       assert.equal(verses[i], house.verse(i))
     end
   end)
 
-  it('should recite the entire song', function()
-    assert.equal(table.concat(verses, '\n'), house.recite())
-  end)
-end)
+    [$'\n'), house.recite~ "should recite the entire song" [""] "table.concat(verses"]end)

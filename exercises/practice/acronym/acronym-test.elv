@@ -1,27 +1,12 @@
-local acronym = require('acronym')
+use ./acronym
 
-describe('acronym', function()
-  it('should generate single-letter acronyms', function()
-    assert.equal('L', acronym('Lua'))
-  end)
-
-  it('should generate multi-letter acronyms', function()
-    assert.equal('LUA', acronym('Lua Ultimate Acronym'))
-  end)
-
-  it('should include lowercase words', function()
-    assert.equal('ROR', acronym('Ruby on Rails'))
-  end)
-
-  it('should ignore punctuation', function()
-    assert.equal('FIFO', acronym('First In, First Out'))
-  end)
-
-  it('should split words with internal capitalization', function()
-    assert.equal('HTML', acronym('HyperText Markup Language'))
-  end)
-
-  it('should not split words that are all uppercase', function()
-    assert.equal('PHP', acronym('PHP: Hypertext Processor'))
-  end)
-end)
+fn tests {
+  put [
+    [$acronym:acronym~ "should generate single-letter acronyms" ["Lua"] "L"]
+    [$acronym:acronym~ "should generate multi-letter acronyms" ["Lua Ultimate Acronym"] "LUA"]
+    [$acronym:acronym~ "should include lowercase words" ["Ruby on Rails"] "ROR"]
+    [$acronym:acronym~ "should ignore punctuation" ["First In, First Out"] "FIFO"]
+    [$acronym:acronym~ "should split words with internal capitalization" ["HyperText Markup Language"] "HTML"]
+    [$acronym:acronym~ "should not split words that are all uppercase" ["PHP: Hypertext Processor"] "PHP"]
+  ]
+}

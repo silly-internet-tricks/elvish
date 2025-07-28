@@ -1,36 +1,14 @@
-local encode = require('atbash-cipher').encode
+use ./atbash-cipher
 
-describe('atbash-cipher', function()
-  it('should encode single letter plaintexts', function()
-    assert.are.equal('m', encode('n'))
-  end)
-
-  it('should encode single-chunk plaintexts', function()
-    assert.are.equal('svool', encode('hello'))
-  end)
-
-  it('should encode multi-chunk plaintexts', function()
-    assert.are.equal('nrmwy oldrm tob', encode('mindblowingly'))
-  end)
-
-  it('should encode all letters as lower-case', function()
-    assert.are.equal('svool', encode('HeLLo'))
-  end)
-
-  it('should not encode whitespace', function()
-    assert.are.equal('svool', encode('h e l l o'))
-  end)
-
-  it('should not encode punctuation', function()
-    assert.are.equal('svool', encode('h,e,l,l,o'))
-  end)
-
-  it('should not encode numbers', function()
-    assert.are.equal('sv11l', encode('he11o'))
-  end)
-
-  it('should encode all letters', function()
-    assert.are
-      .equal('gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt', encode('The quick brown fox jumps over the lazy dog.'))
-  end)
-end)
+fn tests {
+  put [
+    [$atbash-cipher:encode~ "should encode single letter plaintexts" ["n"] "m"]
+    [$atbash-cipher:encode~ "should encode single-chunk plaintexts" ["hello"] "svool"]
+    [$atbash-cipher:encode~ "should encode multi-chunk plaintexts" ["mindblowingly"] "nrmwy oldrm tob"]
+    [$atbash-cipher:encode~ "should encode all letters as lower-case" ["HeLLo"] "svool"]
+    [$atbash-cipher:encode~ "should not encode whitespace" ["h e l l o"] "svool"]
+    [$atbash-cipher:encode~ "should not encode punctuation" ["h,e,l,l,o"] "svool"]
+    [$atbash-cipher:encode~ "should not encode numbers" ["he11o"] "sv11l"]
+    [$atbash-cipher:encode~ "should encode all letters" ["The quick brown fox jumps over the lazy dog."] "gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt"]
+  ]
+}

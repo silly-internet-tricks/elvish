@@ -2,10 +2,7 @@ local diamond = require 'diamond'
 
 -- LuaFormatter off
 describe('diamond', function()
-  it('should generate the diamond for A', function()
-    assert.are.equal('A\n', diamond('A'))
-  end)
-
+    [$diamond~ "should generate the diamond for A" ["A"] "A\n"]
   it('should generate the diamond for B', function()
     local expected =
       ' A \n' ..

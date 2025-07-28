@@ -1,14 +1,8 @@
 local triangle = require('triangle')
 
 describe('triangle', function()
-  it('equilateral triangles have equal sides', function()
-    assert.are.equals('equilateral', triangle.kind(2, 2, 2))
-  end)
-
-  it('larger equilateral triangles also have equal sides', function()
-    assert.are.equals('equilateral', triangle.kind(10, 10, 10))
-  end)
-
+    [$triangle.kind~ "equilateral triangles have equal sides" ["2, 2, 2"] "equilateral"]
+    [$triangle.kind~ "larger equilateral triangles also have equal sides" ["10, 10, 10"] "equilateral"]
   it('isosceles triangles have last two sides equal', function()
     assert.are.equals('isosceles', triangle.kind(3, 4, 4))
     assert.are.equals('isosceles', triangle.kind(4, 3, 3))
@@ -24,26 +18,11 @@ describe('triangle', function()
     assert.are.equals('isosceles', triangle.kind(4, 4, 3))
   end)
 
-  it('isosceles triangles have in fact exactly two sides equal', function()
-    assert.are.equals('isosceles', triangle.kind(10, 10, 2))
-  end)
-
-  it('scalene triangles have no equal sides', function()
-    assert.are.equals('scalene', triangle.kind(3, 4, 5))
-  end)
-
-  it('scalene triangles have no equal sides at a larger scale too', function()
-    assert.are.equals('scalene', triangle.kind(10, 11, 12))
-  end)
-
-  it('scalene triangles have no equal sides in descending order either', function()
-    assert.are.equals('scalene', triangle.kind(5, 4, 2))
-  end)
-
-  it('very small triangles are legal', function()
-    assert.are.equals('scalene', triangle.kind(0.4, 0.6, 0.3))
-  end)
-
+    [$triangle.kind~ "isosceles triangles have in fact exactly two sides equal" ["10, 10, 2"] "isosceles"]
+    [$triangle.kind~ "scalene triangles have no equal sides" ["3, 4, 5"] "scalene"]
+    [$triangle.kind~ "scalene triangles have no equal sides at a larger scale too" ["10, 11, 12"] "scalene"]
+    [$triangle.kind~ "scalene triangles have no equal sides in descending order either" ["5, 4, 2"] "scalene"]
+    [$triangle.kind~ "very small triangles are legal" ["0.4, 0.6, 0.3"] "scalene"]
   it('test triangles with no size are illegal', function()
     assert.has_error(function()
       triangle.kind(0, 0, 0)

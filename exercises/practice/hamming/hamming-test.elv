@@ -1,26 +1,11 @@
 local hamming = require('hamming')
 
 describe('hamming', function()
-  it('empty strands', function()
-    assert.are.equal(0, hamming.compute("", ""))
-  end)
-
-  it('single letter identical strands', function()
-    assert.are.equal(0, hamming.compute("A", "A"))
-  end)
-
-  it('single letter different strands', function()
-    assert.are.equal(1, hamming.compute("G", "T"))
-  end)
-
-  it('long identical strands', function()
-    assert.are.equal(0, hamming.compute("GGACTGAAATCTG", "GGACTGAAATCTG"))
-  end)
-
-  it('long different strands', function()
-    assert.are.equal(9, hamming.compute("GGACGGATTCTG", "AGGACGGATTCT"))
-  end)
-
+    [$hamming.compute~ "empty strands" [""", """] "0"]
+    [$hamming.compute~ "single letter identical strands" [""A", "A""] "0"]
+    [$hamming.compute~ "single letter different strands" [""G", "T""] "1"]
+    [$hamming.compute~ "long identical strands" [""GGACTGAAATCTG", "GGACTGAAATCTG""] "0"]
+    [$hamming.compute~ "long different strands" [""GGACGGATTCTG", "AGGACGGATTCT""] "9"]
   it('disallow first strand longer', function()
     assert.has_error(function()
       hamming.compute("AATG", "AAA")

@@ -9,26 +9,11 @@ describe('crypto-square', function()
     assert.are.equal('', crypto_square.ciphertext('... --- ...'))
   end)
 
-  it('Lowercase', function()
-    assert.are.equal('a', crypto_square.ciphertext('A'))
-  end)
-
-  it('Remove spaces', function()
-    assert.are.equal('b', crypto_square.ciphertext('  b '))
-  end)
-
-  it('Remove punctuation', function()
-    assert.are.equal('1', crypto_square.ciphertext('@1,%!'))
-  end)
-
-  it('9 character plaintext results in 3 chunks of 3 characters', function()
-    assert.are.equal('tsf hiu isn', crypto_square.ciphertext('This is fun!'))
-  end)
-
-  it('8 character plaintext results in 3 chunks, the last one with a trailing space', function()
-    assert.are.equal('clu hlt io ', crypto_square.ciphertext('Chill out.'))
-  end)
-
+    [$crypto_square.ciphertext~ "Lowercase" ["A"] "a"]
+    [$crypto_square.ciphertext~ "Remove spaces" ["  b "] "b"]
+    [$crypto_square.ciphertext~ "Remove punctuation" ["@1,%!"] "1"]
+    [$crypto_square.ciphertext~ "9 character plaintext results in 3 chunks of 3 characters" ["This is fun!"] "tsf hiu isn"]
+    [$crypto_square.ciphertext~ "8 character plaintext results in 3 chunks, the last one with a trailing space" ["Chill out."] "clu hlt io "]
   it('54 character plaintext results in 8 chunks, the last two with trailing spaces', function()
     assert.are.equal('imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn  sseoau ',
                      crypto_square.ciphertext('If man was meant to stay on the ground, god would have given us roots.'))

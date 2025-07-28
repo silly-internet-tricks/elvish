@@ -2,10 +2,7 @@ local translate = require('protein-translation')
 
 describe('protein-translation', function()
   describe('translate.codon', function()
-    it('should translate AUG to Methionine', function()
-      assert.equal('Methionine', translate.codon('AUG'))
-    end)
-
+    [$translate.codon~ "should translate AUG to Methionine" ["AUG"] "Methionine"]
     it('should translate UUU and UUC to Phenylalanine', function()
       assert.equal('Phenylalanine', translate.codon('UUU'))
       assert.equal('Phenylalanine', translate.codon('UUC'))
@@ -33,10 +30,7 @@ describe('protein-translation', function()
       assert.equal('Cysteine', translate.codon('UGC'))
     end)
 
-    it('should translate UGG to Tryptophan', function()
-      assert.equal('Tryptophan', translate.codon('UGG'))
-    end)
-
+    [$translate.codon~ "should translate UGG to Tryptophan" ["UGG"] "Tryptophan"]
     it('should translate UAA, UAG, and UGA to STOP codons', function()
       assert.equal('STOP', translate.codon('UAA'))
       assert.equal('STOP', translate.codon('UAG'))

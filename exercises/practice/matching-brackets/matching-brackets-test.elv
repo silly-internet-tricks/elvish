@@ -2,42 +2,18 @@
 local brackets = require('matching-brackets')
 
 describe('matching-brackets', function()
-  it('should accept paired square brackets', function()
-    assert.is_true(brackets.valid('[]'))
-  end)
-
-  it('should accept empty string', function()
-    assert.is_true(brackets.valid(''))
-  end)
-
-  it('should reject unpaired brackets', function()
-    assert.is_false(brackets.valid('[['))
-  end)
-
-  it('should reject wrong ordered brackets', function()
-    assert.is_false(brackets.valid('}{'))
-  end)
-
-  it('should reject wrong closing bracket', function()
-    assert.is_false(brackets.valid('{]'))
-  end)
-
-  it('should accept paired with whitespace', function()
-    assert.is_true(brackets.valid('{ }'))
-  end)
-
+    [$brackets.valid~ "should accept paired square brackets" ['[]'] $true]
+    [$brackets.valid~ "should accept empty string" [''] $true]
+    [$brackets.valid~ "should reject unpaired brackets" ['[['] $false]
+    [$brackets.valid~ "should reject wrong ordered brackets" ['}{'] $false]
+    [$brackets.valid~ "should reject wrong closing bracket" ['{]'] $false]
+    [$brackets.valid~ "should accept paired with whitespace" ['{ }'] $true]
   it('should reject partially paired brackets', function()
     assert.is_false(brackets.valid('{[])'))
   end)
 
-  it('should accept simple nested brackets', function()
-    assert.is_true(brackets.valid('{[]}'))
-  end)
-
-  it('should accept several paired brackets', function()
-    assert.is_true(brackets.valid('{}[]'))
-  end)
-
+    [$brackets.valid~ "should accept simple nested brackets" ['{[]}'] $true]
+    [$brackets.valid~ "should accept several paired brackets" ['{}[]'] $true]
   it('should accept paired and nested brackets', function()
     assert.is_true(brackets.valid('([{}({}[])])'))
   end)
@@ -58,14 +34,8 @@ describe('matching-brackets', function()
     assert.is_false(brackets.valid('[({}])'))
   end)
 
-  it('should reject paired and incomplete brackets', function()
-    assert.is_false(brackets.valid('{}['))
-  end)
-
-  it('should reject too many closing brackets', function()
-    assert.is_false(brackets.valid('[]]'))
-  end)
-
+    [$brackets.valid~ "should reject paired and incomplete brackets" ['{}['] $false]
+    [$brackets.valid~ "should reject too many closing brackets" ['[]]'] $false]
   it('should reject early unexpected brackets', function()
     assert.is_false(brackets.valid(')()'))
   end)

@@ -1,59 +1,17 @@
 local is_isogram = require('isogram')
 
 describe('isogram', function()
-  it('empty string', function()
-    assert.is_true(is_isogram(''))
-  end)
-
-  it('isogram with only lower case characters', function()
-    assert.is_true(is_isogram('isogram'))
-  end)
-
-  it('word with one duplicated character', function()
-    assert.is_false(is_isogram('eleven'))
-  end)
-
-  it('word with one duplicated character from the end of the alphabet', function()
-    assert.is_false(is_isogram('zzyzx'))
-  end)
-
-  it('longest reported english isogram', function()
-    assert.is_true(is_isogram('subdermatoglyphic'))
-  end)
-
-  it('word with duplicated character in mixed case', function()
-    assert.is_false(is_isogram('Alphabet'))
-  end)
-
-  it('word with duplicated character in mixed case, lowercase first', function()
-    assert.is_false(is_isogram('alphAbet'))
-  end)
-
-  it('hypothetical isogrammic word with hyphen', function()
-    assert.is_true(is_isogram('thumbscrew-japingly'))
-  end)
-
-  it('hypothetical word with duplicated character following hyphen', function()
-    assert.is_false(is_isogram('thumbscrew-jappingly'))
-  end)
-
-  it('isogram with duplicated hyphen', function()
-    assert.is_true(is_isogram('six-year-old'))
-  end)
-
-  it('made-up name that is an isogram', function()
-    assert.is_true(is_isogram('Emily Jung Schwartzkopf'))
-  end)
-
-  it('duplicated character in the middle', function()
-    assert.is_false(is_isogram('accentor'))
-  end)
-
-  it('same first and last characters', function()
-    assert.is_false(is_isogram('angola'))
-  end)
-
-  it('word with duplicated character and with two hyphens', function()
-    assert.is_false(is_isogram('up-to-date'))
-  end)
-end)
+    [$is_isogram~ "empty string" [''] $true]
+    [$is_isogram~ "isogram with only lower case characters" ['isogram'] $true]
+    [$is_isogram~ "word with one duplicated character" ['eleven'] $false]
+    [$is_isogram~ "word with one duplicated character from the end of the alphabet" ['zzyzx'] $false]
+    [$is_isogram~ "longest reported english isogram" ['subdermatoglyphic'] $true]
+    [$is_isogram~ "word with duplicated character in mixed case" ['Alphabet'] $false]
+    [$is_isogram~ "word with duplicated character in mixed case, lowercase first" ['alphAbet'] $false]
+    [$is_isogram~ "hypothetical isogrammic word with hyphen" ['thumbscrew-japingly'] $true]
+    [$is_isogram~ "hypothetical word with duplicated character following hyphen" ['thumbscrew-jappingly'] $false]
+    [$is_isogram~ "isogram with duplicated hyphen" ['six-year-old'] $true]
+    [$is_isogram~ "made-up name that is an isogram" ['Emily Jung Schwartzkopf'] $true]
+    [$is_isogram~ "duplicated character in the middle" ['accentor'] $false]
+    [$is_isogram~ "same first and last characters" ['angola'] $false]
+    [$is_isogram~ "word with duplicated character and with two hyphens" ['up-to-date'] $false]end)

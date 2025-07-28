@@ -10,6 +10,7 @@ for e in ./exercises/practice/**/.meta/example.elv; do
     stub_path="$dir_stem/$dir_name/$dir_name.elv"
     mv "$stub_path" "$stub_path.tmp"
     cp "$e" "$stub_path"
+    printf "\n******** running test %s ********\n" "$dir_name"
     elvish "$dir_stem/$dir_name/local-test-helper.elv"
     mv "$stub_path.tmp" "$stub_path"
 done

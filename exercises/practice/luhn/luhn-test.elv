@@ -1,82 +1,25 @@
 local luhn = require('luhn')
 
 describe('luhn', function()
-  it('single digit strings can not be valid', function()
-    assert.is_false(luhn.valid('1'))
-  end)
-
-  it('a single zero is invalid', function()
-    assert.is_false(luhn.valid('0'))
-  end)
-
-  it('a simple valid sin that remains valid if reversed', function()
-    assert.is_true(luhn.valid('059'))
-  end)
-
-  it('a simple valid sin that becomes invalid if reversed', function()
-    assert.is_true(luhn.valid('59'))
-  end)
-
-  it('a valid canadian sin', function()
-    assert.is_true(luhn.valid('055 444 285'))
-  end)
-
-  it('invalid canadian sin', function()
-    assert.is_false(luhn.valid('055 444 286'))
-  end)
-
-  it('invalid credit card', function()
-    assert.is_false(luhn.valid('8273 1232 7352 0569'))
-  end)
-
-  it('invalid long number with an even remainder', function()
-    assert.is_false(luhn.valid('1 2345 6789 1234 5678 9012'))
-  end)
-
-  it('invalid long number with a remainder divisible by 5', function()
-    assert.is_false(luhn.valid('1 2345 6789 1234 5678 9013'))
-  end)
-
-  it('valid number with an even number of digits', function()
-    assert.is_true(luhn.valid('095 245 88'))
-  end)
-
-  it('valid number with an odd number of spaces', function()
-    assert.is_true(luhn.valid('234 567 891 234'))
-  end)
-
-  it('valid strings with a non-digit added at the end become invalid', function()
-    assert.is_false(luhn.valid('059a'))
-  end)
-
-  it('valid strings with punctuation included become invalid', function()
-    assert.is_false(luhn.valid('055-444-285'))
-  end)
-
-  it('valid strings with symbols included become invalid', function()
-    assert.is_false(luhn.valid('055# 444$ 285'))
-  end)
-
-  it('single zero with space is invalid', function()
-    assert.is_false(luhn.valid(' 0'))
-  end)
-
-  it('more than a single zero is valid', function()
-    assert.is_true(luhn.valid('0000 0'))
-  end)
-
-  it('input digit 9 is correctly converted to output digit 9', function()
-    assert.is_true(luhn.valid('091'))
-  end)
-
-  it('very long input is valid', function()
-    assert.is_true(luhn.valid('9999999999 9999999999 9999999999 9999999999'))
-  end)
-
-  it('valid luhn with an odd number of digits and non zero first digit', function()
-    assert.is_true(luhn.valid('109'))
-  end)
-
+    [$luhn.valid~ "single digit strings can not be valid" ['1'] $false]
+    [$luhn.valid~ "a single zero is invalid" ['0'] $false]
+    [$luhn.valid~ "a simple valid sin that remains valid if reversed" ['059'] $true]
+    [$luhn.valid~ "a simple valid sin that becomes invalid if reversed" ['59'] $true]
+    [$luhn.valid~ "a valid canadian sin" ['055 444 285'] $true]
+    [$luhn.valid~ "invalid canadian sin" ['055 444 286'] $false]
+    [$luhn.valid~ "invalid credit card" ['8273 1232 7352 0569'] $false]
+    [$luhn.valid~ "invalid long number with an even remainder" ['1 2345 6789 1234 5678 9012'] $false]
+    [$luhn.valid~ "invalid long number with a remainder divisible by 5" ['1 2345 6789 1234 5678 9013'] $false]
+    [$luhn.valid~ "valid number with an even number of digits" ['095 245 88'] $true]
+    [$luhn.valid~ "valid number with an odd number of spaces" ['234 567 891 234'] $true]
+    [$luhn.valid~ "valid strings with a non-digit added at the end become invalid" ['059a'] $false]
+    [$luhn.valid~ "valid strings with punctuation included become invalid" ['055-444-285'] $false]
+    [$luhn.valid~ "valid strings with symbols included become invalid" ['055# 444$ 285'] $false]
+    [$luhn.valid~ "single zero with space is invalid" [' 0'] $false]
+    [$luhn.valid~ "more than a single zero is valid" ['0000 0'] $true]
+    [$luhn.valid~ "input digit 9 is correctly converted to output digit 9" ['091'] $true]
+    [$luhn.valid~ "very long input is valid" ['9999999999 9999999999 9999999999 9999999999'] $true]
+    [$luhn.valid~ "valid luhn with an odd number of digits and non zero first digit" ['109'] $true]
   it('using ascii value for non-doubled non-digit isn\'t allowed', function()
     assert.is_false(luhn.valid('055b 444 285'))
   end)

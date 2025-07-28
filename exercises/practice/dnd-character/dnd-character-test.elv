@@ -3,70 +3,22 @@ require('assertions')
 
 describe('dnd', function()
   describe('modifier', function()
-    it('should return -4 for score 3', function()
-      assert.equal(-4, dnd.modifier(3))
-    end)
-
-    it('should return -3 for score 4', function()
-      assert.equal(-3, dnd.modifier(4))
-    end)
-
-    it('should return -3 for score 5', function()
-      assert.equal(-3, dnd.modifier(5))
-    end)
-
-    it('should return -2 for score 6', function()
-      assert.equal(-2, dnd.modifier(6))
-    end)
-
-    it('should return -2 for score 7', function()
-      assert.equal(-2, dnd.modifier(7))
-    end)
-
-    it('should return -1 for score 8', function()
-      assert.equal(-1, dnd.modifier(8))
-    end)
-
-    it('should return -1 for score 9', function()
-      assert.equal(-1, dnd.modifier(9))
-    end)
-
-    it('should return 0 for score 10', function()
-      assert.equal(0, dnd.modifier(10))
-    end)
-
-    it('should return 0 for score 11', function()
-      assert.equal(0, dnd.modifier(11))
-    end)
-
-    it('should return +1 for score 12', function()
-      assert.equal(1, dnd.modifier(12))
-    end)
-
-    it('should return +1 for score 13', function()
-      assert.equal(1, dnd.modifier(13))
-    end)
-
-    it('should return +2 for score 14', function()
-      assert.equal(2, dnd.modifier(14))
-    end)
-
-    it('should return +2 for score 15', function()
-      assert.equal(2, dnd.modifier(15))
-    end)
-
-    it('should return +3 for score 16', function()
-      assert.equal(3, dnd.modifier(16))
-    end)
-
-    it('should return +3 for score 17', function()
-      assert.equal(3, dnd.modifier(17))
-    end)
-
-    it('should return +4 for score 18', function()
-      assert.equal(4, dnd.modifier(18))
-    end)
-  end)
+    [$dnd.modifier~ "should return -4 for score 3" ["3"] "-4"]
+    [$dnd.modifier~ "should return -3 for score 4" ["4"] "-3"]
+    [$dnd.modifier~ "should return -3 for score 5" ["5"] "-3"]
+    [$dnd.modifier~ "should return -2 for score 6" ["6"] "-2"]
+    [$dnd.modifier~ "should return -2 for score 7" ["7"] "-2"]
+    [$dnd.modifier~ "should return -1 for score 8" ["8"] "-1"]
+    [$dnd.modifier~ "should return -1 for score 9" ["9"] "-1"]
+    [$dnd.modifier~ "should return 0 for score 10" ["10"] "0"]
+    [$dnd.modifier~ "should return 0 for score 11" ["11"] "0"]
+    [$dnd.modifier~ "should return +1 for score 12" ["12"] "1"]
+    [$dnd.modifier~ "should return +1 for score 13" ["13"] "1"]
+    [$dnd.modifier~ "should return +2 for score 14" ["14"] "2"]
+    [$dnd.modifier~ "should return +2 for score 15" ["15"] "2"]
+    [$dnd.modifier~ "should return +3 for score 16" ["16"] "3"]
+    [$dnd.modifier~ "should return +3 for score 17" ["17"] "3"]
+    [$dnd.modifier~ "should return +4 for score 18" ["18"] "4"]  end)
 
   describe('ability', function()
     it('random ability is within range', function()

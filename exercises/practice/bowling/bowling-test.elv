@@ -1,4 +1,4 @@
-local BowlingScorer = require('bowling')
+use ./bowling
 
 describe('bowling', function()
   local scorer

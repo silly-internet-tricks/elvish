@@ -1,10 +1,7 @@
 local rectangles = require('rectangles')
 
 describe('rectangles', function()
-  it('no rows', function()
-    assert.equal(0, rectangles.count({}))
-  end)
-
+    [$rectangles.count~ "no rows" ["{}"] "0"]
   it('no columns', function()
     assert.equal(0, rectangles.count({
       '' --
