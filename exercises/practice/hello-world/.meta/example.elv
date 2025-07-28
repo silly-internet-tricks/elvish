@@ -1,4 +1,4 @@
 fn hello {
-  echo "Goodbye, Mars!"
+  echo "Hello, World!"
 }
 

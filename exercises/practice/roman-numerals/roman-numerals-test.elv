@@ -27,4 +27,4 @@ describe('roman-numerals', function()
     [$roman_numerals.to_roman~ "3000 is mmm" ["3000"] "MMM"]
     [$roman_numerals.to_roman~ "3001 is mmmi" ["3001"] "MMMI"]
     [$roman_numerals.to_roman~ "3888 is mmmdccclxxxviii" ["3888"] "MMMDCCCLXXXVIII"]
-    [$roman_numerals.to_roman~ "3999 is mmmcmxcix" ["3999"] "MMMCMXCIX"]end)
+    [$roman_numerals.to_roman~ "3999 is mmmcmxcix" ["3999"] "MMMCMXCIX"]
